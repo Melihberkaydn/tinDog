@@ -1,0 +1,185 @@
+/* #########################   General Features    ############################### */
+body {
+  font-family: 'Montserrat', 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* #########################   Section formatting (Colored-White)      ##################### */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+/* #########################   Title Section       ############################### */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* BUTTONS */
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-weight: 500;
+  width: 170px;
+}
+
+/* Title İmage */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 27%;
+}
+
+@media (max-width:991px) {
+  .title-img {
+    transform: rotate(0);
+    position: static;
+    left: 27%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media (min-width:1400px) {
+  .title-img {
+    width: 50%;
+  }
+}
+
+/* #########################   Features Section       ############################### */
+#features {
+  /* padding: 25px 50px; */
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+  text-indent: 2;
+}
+
+.features-headings {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.features-img {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  /* height: 30px; */
+}
+
+.features-img:hover {
+  color: #ff4c68;
+}
+
+/* #########################   testimonial Section       ############################### */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+}
+
+.testimonial-img {
+  /* width: 10%;  videodaki */
+  width: 150px;
+  /* Non responsive*/
+  margin: 20px;
+  border-radius: 100%;
+}
+
+/* #########################   Press Section       ############################### */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* #########################   Pricing Section       ############################### */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-section-heading {
+  font-size: 3rem;
+}
+
+.pricing-card-heading {
+  font-size: 3rem;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+  /* height: 500px; */
+}
+
+.pricing-text-container {
+  min-height: 255px;
+}
+
+/* #########################   Call to Action Section       ############################### */
+
+.cta-h3 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* #########################   Footer Section       ############################### */
+.footer-img {
+  padding: 25px;
+}
