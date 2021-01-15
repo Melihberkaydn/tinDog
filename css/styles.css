@@ -23,7 +23,6 @@ p {
 }
 
 /* #########################   Section formatting (Colored-White)      ##################### */
-
 .colored-section {
   background-color: #ff4c68;
   color: white;
@@ -33,9 +32,7 @@ p {
   background-color: #fff;
 }
 
-
 /* #########################   Title Section       ############################### */
-
 #title .container-fluid {
   padding: 3% 15% 7%;
   text-align: left;
@@ -77,14 +74,14 @@ p {
   left: 27%;
 }
 
-@media (max-width:991px) {
+@media (max-width:999px) {
   .title-img {
     transform: rotate(0);
     position: static;
     left: 27%;
   }
 
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
 }
@@ -173,7 +170,6 @@ p {
 }
 
 /* #########################   Call to Action Section       ############################### */
-
 .cta-h3 {
   font-size: 3.5rem;
   line-height: 1.5;
